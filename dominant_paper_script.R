@@ -54,7 +54,7 @@ data_future_rcp85_70 <- read.csv2('future_rcp85_70.csv')
 #---------------------------------#
 
 # Selecting columns for extreme model training
-train_extreme <- data_current %>% 
+train_average <- data_current %>% 
         select('bio1', 'bio2', 'bio3', 'bio5', 'bio6', 'bio8', 'bio9',
                'bio10', 'bio11', 'bio12', 'bio13', 'bio14',
                'bio16', 'bio17', 'bio18', 'bio19', 'modis_dominant')
